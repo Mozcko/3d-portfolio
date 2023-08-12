@@ -1,4 +1,8 @@
 import {
+    alojamiento,
+    hacker,
+    seguridad,
+    terminal,
     mobile,
     backend,
     creator,
@@ -42,20 +46,20 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
+      title: "Software Development",
+      icon: hacker,
     },
     {
-      title: "React Native Developer",
-      icon: mobile,
+      title: "Cloud Computing",
+      icon: alojamiento,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "Systems Administration",
+      icon: terminal,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "CyberSecurity",
+      icon: seguridad,
     },
   ];
   
