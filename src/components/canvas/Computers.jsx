@@ -15,7 +15,7 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={1}/>
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.12}
+        angle={0.20}
         penumbra={1}
         intensity={1}
         castShadow
@@ -23,9 +23,9 @@ const Computers = ({ isMobile }) => {
       />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.4 : 0.75}
-        position={isMobile ? [0, -2, -0.5] : [0, -3.25, -1.5]}
-        rotation={[-0.01, -0.2, -0.1]}
+        scale={isMobile ? 0.75 : 1}
+        position={isMobile ? [0, -2, -0.5] : [0, -2, -0.5]}
+        rotation={[0.15, -0.5, 0.1]}
       />
     </mesh>
   )
