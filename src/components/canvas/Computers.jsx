@@ -1,21 +1,24 @@
-import { Suspense, useEffect, useState } from 'react'
-import { Canvas } from '@react-three/fiber'
-import { CameraControls, OrbitControls, Preload, SoftShadows, useGLTF } from '@react-three/drei'
-import CanvasLoader from '../Loader'
+import { Suspense, useEffect, useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import {
+  CameraControls,
+  OrbitControls,
+  Preload,
+  SoftShadows,
+  useGLTF,
+} from "@react-three/drei";
+import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-
-  const computer = useGLTF('./desktop_pc/scene.gltf')
+  const computer = useGLTF("./desktop_pc/scene.gltf");
 
   return (
     <mesh>
-      <hemisphereLight 
-        intensity={0.15}
-        groundColor="black"/>
-      <pointLight intensity={1}/>
+      <hemisphereLight intensity={0.15} groundColor="black" />
+      <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
-        angle={0.20}
+        angle={0.2}
         penumbra={1}
         intensity={1}
         castShadow
@@ -28,9 +31,8 @@ const Computers = ({ isMobile }) => {
         rotation={[0.15, -0.5, 0.1]}
       />
     </mesh>
-  )
-
-}
+  );
+};
 
 const ComputersCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -57,7 +59,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      frameloop='demand'
+      frameloop="demand"
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
@@ -77,4 +79,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas
+export default ComputersCanvas;

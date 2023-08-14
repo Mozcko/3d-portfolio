@@ -29,6 +29,8 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cv from "./CV_JERF_Actualizado2023.pdf"
+
 export {
   logo,
   alojamiento,
@@ -55,4 +57,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  cv,
 };
