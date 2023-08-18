@@ -29,6 +29,15 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import CCNAv7_1 from "./certifications/CCNAv7_1.jpg";
+import CCNAv7_2 from "./certifications/CCNAv7_2.jpg";
+import CCNAv7_3 from "./certifications/CCNAv7_3.jpg";
+import power_automate from "./certifications/power_automate.jpg"
+import python_beginners from "./certifications/python_beginners.png"
+import python_core from "./certifications/python_core.png"
+import python_intermediate from "./certifications/python_intermediate.png"
+import python_structures from "./certifications/python_structures.png" 
+
 import cv from "./CV_JERF_Actualizado2023.pdf"
 
 export {
@@ -57,5 +66,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  CCNAv7_1,
+  CCNAv7_2,
+  CCNAv7_3,
+  power_automate,
+  python_beginners,
+  python_intermediate,
+  python_core,
+  python_structures,
   cv,
 };

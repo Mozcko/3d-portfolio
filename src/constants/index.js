@@ -19,6 +19,14 @@ import {
   carrent,
   jobit,
   tripguide,
+  CCNAv7_1,
+  CCNAv7_2,
+  CCNAv7_3,
+  power_automate,
+  python_beginners,
+  python_intermediate,
+  python_core,
+  python_structures,
   threejs,
 } from "../assets";
 
@@ -126,6 +134,57 @@ const experiences = [
   },
 ];
 
+const certificates = [
+  {
+    title:"CCNAv7: Introduction to Networks",
+    school:"CISCO",
+    image:CCNAv7_1,
+    link:"https://www.credly.com/badges/b4ff92d2-c40e-47cd-8f6f-01daa3fdc12f",
+  },
+  {
+    title:"CCNAv7: Switching, Routing, and Wireless Essentials",
+    school:"CISCO",
+    image:CCNAv7_2,
+    link:"https://www.credly.com/badges/37cf40dd-ed47-406e-909a-d22784816d8c",
+  },
+  {
+    title:"CCNAv7: Enterprise Networking, Security, and Automation",
+    school:"CISCO",
+    image:CCNAv7_3,
+    link:"",
+  },
+  {
+    title:"Power Automate - Curso completo de Microsoft Power Automate",
+    school:"Udemy",
+    image:power_automate,
+    link:"https://www.udemy.com/certificate/UC-71fc7193-8d40-4f5c-9db4-ebbefc025709/",
+  },
+  {
+    title:"Python for Beginners",
+    school:"SoloLearn",
+    image:python_beginners,
+    link:"https://www.sololearn.com/certificates/CT-S0WOHS0Y",
+  },
+  {
+    title:"Python Intermediate",
+    school:"SoloLearn",
+    image:python_intermediate,
+    link:"https://www.sololearn.com/certificates/CT-SJO2KJY9",
+  },
+  {
+    title:"Python Core",
+    school:"SoloLearn",
+    image:python_core,
+    link:"https://www.sololearn.com/certificates/CT-GEQG85HN",
+  },
+  {
+    title:"Python Data Structures",
+    school:"SoloLearn",
+    image:python_structures,
+    link:"https://www.sololearn.com/certificates/CT-1H33ZTNM",
+  },
+]
+
 const testimonials = [
   {
     testimonial:
@@ -189,7 +248,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
@@ -219,4 +278,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, certificates, projects };

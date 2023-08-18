@@ -50,9 +50,9 @@ const About = () => {
         software and dynamic web applications, marrying creativity with
         precision to build the future of digital landscapes.
       </motion.p>
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="pt-[60px]">
+      <motion.div variants={fadeIn("", "", 0.1, 1)} className="pt-[60px]">
         <p className={styles.sectionSubText}>my interests:</p>
-      </motion.p>
+      </motion.div>
 
       <div className="mt-10 flex flex-wrap gap-10">
         {services.map((service, index) => (
