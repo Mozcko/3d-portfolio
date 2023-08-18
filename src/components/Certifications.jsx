@@ -21,6 +21,7 @@ const CertificateCard = ({ index, title, school, image, link }) => (
 
     <div className="mt-5 mb-10">
       <h3 className="text-white font-bold text-[14px]">{title}</h3>
+      <p className="text-secondary mt-2 font-bold">By: {school}</p>
     </div>
 
     <div className="transition ease-out delay-50 duration-200 hover:scale-110 absolute bottom-0 mb-6">

@@ -8,6 +8,8 @@ import { slideIn } from "../utils/motion";
 
 import { styles } from "../styles";
 
+
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -18,9 +20,51 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  // template_vy3tosf
+  // service_ao0hcz3
+  // elSKvAZHhS3Pe1ESC
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        'service_ao0hcz3',
+        'template_vy3tosf',
+        {
+          from_name: form.name,
+          to_name: 'Joaquin',
+          from_email: form.email,
+          to_email: 'joaquin.ramosff@gmail.com',
+          message: form.message,
+        },
+        'elSKvAZHhS3Pe1ESC'
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert('Thank you. I will get in touch ASAP.');
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+
+          alert('Ups!, Something went wrong, please try again.');
+        }
+      );
+  };
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">

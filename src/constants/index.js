@@ -137,19 +137,19 @@ const experiences = [
 const certificates = [
   {
     title:"CCNAv7: Introduction to Networks",
-    school:"CISCO",
+    school:"Cisco",
     image:CCNAv7_1,
     link:"https://www.credly.com/badges/b4ff92d2-c40e-47cd-8f6f-01daa3fdc12f",
   },
   {
     title:"CCNAv7: Switching, Routing, and Wireless Essentials",
-    school:"CISCO",
+    school:"Cisco",
     image:CCNAv7_2,
     link:"https://www.credly.com/badges/37cf40dd-ed47-406e-909a-d22784816d8c",
   },
   {
     title:"CCNAv7: Enterprise Networking, Security, and Automation",
-    school:"CISCO",
+    school:"Cisco",
     image:CCNAv7_3,
     link:"",
   },
