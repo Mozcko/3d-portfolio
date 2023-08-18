@@ -4,21 +4,23 @@ import {
   seguridad,
   terminal,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
   docker,
+  bootstrap,
+  c_sharp,
+  linux,
+  python,
+  sql_server,
   dhl,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  proyectofinal,
+  sortingapp,
   CCNAv7_1,
   CCNAv7_2,
   CCNAv7_3,
@@ -27,7 +29,6 @@ import {
   python_intermediate,
   python_core,
   python_structures,
-  threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -78,21 +79,26 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C-Sharp",
+    icon: c_sharp,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "React JS",
+    icon: reactjs,
+  },
+  
   {
     name: "Node JS",
     icon: nodejs,
@@ -102,16 +108,17 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQLServer",
+    icon: sql_server,
   },
+  
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Linux",
+    icon: linux,
   },
   {
     name: "docker",
@@ -185,45 +192,18 @@ const certificates = [
   },
 ]
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "This Portfolio",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My web portfolio where I upload all my new projects and where I share my experiences that I have obtained throughout the years",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "three.js",
         color: "green-text-gradient",
       },
       {
@@ -231,50 +211,50 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/Mozcko/3d-portfolio",
   },
   {
-    name: "Job IT",
+    name: "Sorting app",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An app that may seem simple but is actually very useful, it is used to organize all the files in the folder that you choose and it works on any operating system",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "python Pillow",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Cli",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: sortingapp,
+    source_code_link: "https://github.com/Mozcko/sorting_app/",
   },
   {
-    name: "Trip Guide",
+    name: "TenCloy Final Project",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "My final information architecture project where I learned the basics of web development and the use of technologies such as Bootstrap, PHP, javaScript, among others.",
     tags: [
       {
-        name: "nextjs",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "javaScript",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: proyectofinal,
+    source_code_link: "https://github.com/Mozcko/proyecto-final-Aw",
   },
 ];
 

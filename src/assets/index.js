@@ -11,23 +11,26 @@ import close from "./close.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import reactjs from "./tech/reactjs.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+
+import bootstrap from "./tech/bootstrap.png";
+import c_sharp from "./tech/c_sharp.png";
+import linux from "./tech/linux.png";
+import python from "./tech/python.png";
+import sql_server from "./tech/sql-server.png";
 
 import dhl from "./company/dhl.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import proyectofinal from "./proyectofinal.png";
+import sortingapp from "./sortingapp.png";
+
 
 import CCNAv7_1 from "./certifications/CCNAv7_1.jpg";
 import CCNAv7_2 from "./certifications/CCNAv7_2.jpg";
@@ -51,21 +54,22 @@ export {
   close,
   css,
   docker,
-  figma,
   git,
   html,
   javascript,
   mongodb,
   nodejs,
-  reactjs,
-  redux,
   tailwind,
-  typescript,
-  threejs,
+  reactjs,
+  bootstrap,
+  c_sharp,
+  linux,
+  python,
+  sql_server,
   dhl,
-  carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  proyectofinal,
+  sortingapp,
   CCNAv7_1,
   CCNAv7_2,
   CCNAv7_3,
