@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   alojamiento,
   hacker,
@@ -7,6 +8,7 @@ import {
   html,
   css,
   reactjs,
+  django,
   tailwind,
   nodejs,
   mongodb,
@@ -21,6 +23,7 @@ import {
   portfolio,
   proyectofinal,
   sortingapp,
+  taskapp,
   CCNAv7_1,
   CCNAv7_2,
   CCNAv7_3,
@@ -98,14 +101,13 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  
+  {
+    name: "Python Django",
+    icon: django,
+  },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "SQLServer",
@@ -213,6 +215,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/Mozcko/3d-portfolio",
+    web_link: "https://joaquinramos.dev",
   },
   {
     name: "Sorting app",
@@ -255,6 +258,28 @@ const projects = [
     ],
     image: proyectofinal,
     source_code_link: "https://github.com/Mozcko/proyecto-final-Aw",
+    web_link:"https://monism-schoolroom.000webhostapp.com",
+  },
+  {
+    name: "Django React Task App",
+    description: "A simple task app created with react and django to understand the basics of front-end and back-end development.",
+    tags: [
+      {
+        name: "python django",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "react",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: taskapp,
+    source_code_link: "https://github.com/Mozcko/django-react",
+    web_link:"https://taskapp.up.railway.app",
   },
 ];
 

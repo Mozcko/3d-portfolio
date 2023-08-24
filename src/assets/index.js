@@ -6,6 +6,7 @@ import seguridad from "./seguridad.png";
 import terminal from "./terminal.png";
 
 import github from "./github.png";
+import web from "./web.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -15,6 +16,7 @@ import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import reactjs from "./tech/reactjs.png";
+import django from "./tech/django.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import tailwind from "./tech/tailwind.png";
@@ -30,6 +32,7 @@ import dhl from "./company/dhl.png";
 import portfolio from "./portfolio.png";
 import proyectofinal from "./proyectofinal.png";
 import sortingapp from "./sortingapp.png";
+import taskapp from "./taskapp.png"
 
 
 import CCNAv7_1 from "./certifications/CCNAv7_1.jpg";
@@ -50,6 +53,7 @@ export {
   seguridad,
   terminal,
   github,
+  web,
   menu,
   close,
   css,
@@ -61,6 +65,7 @@ export {
   nodejs,
   tailwind,
   reactjs,
+  django,
   bootstrap,
   c_sharp,
   linux,
@@ -70,6 +75,7 @@ export {
   portfolio,
   proyectofinal,
   sortingapp,
+  taskapp,
   CCNAv7_1,
   CCNAv7_2,
   CCNAv7_3,
